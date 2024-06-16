@@ -1,7 +1,7 @@
 import { Box, Heading, VStack, Text } from "@chakra-ui/react";
 
 const Notifications = () => (
-  <Box p={4}>
+  <Box p={4} bg="black" color="white">
     <VStack spacing={4} align="center">
       <Heading>Notifications</Heading>
       <Text>Stay updated with the latest notifications.</Text>

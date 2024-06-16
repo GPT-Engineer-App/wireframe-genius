@@ -11,7 +11,17 @@ const colors = {
   },
 };
 
-const theme = extendTheme({ colors });
+const theme = extendTheme({
+  colors,
+  styles: {
+    global: {
+      body: {
+        bg: "black", /* Change background color to black */
+        color: "white", /* Ensure text color is white */
+      },
+    },
+  },
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
