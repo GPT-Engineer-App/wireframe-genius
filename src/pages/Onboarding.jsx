@@ -1,7 +1,7 @@
 import { Box, Heading, VStack, FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
 
 const Onboarding = () => (
-  <Box p={4}>
+  <Box p={4} bg="black" color="white">
     <VStack spacing={4} align="center">
       <Heading>Supplier Onboarding</Heading>
       <FormControl id="name">

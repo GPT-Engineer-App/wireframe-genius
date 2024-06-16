@@ -2,7 +2,7 @@ import { Box, Heading, VStack, Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 const Dashboard = () => (
-  <Box p={4}>
+  <Box p={4} bg="black" color="white">
     <VStack spacing={4} align="center">
       <Heading>Bidding Dashboard</Heading>
       <Text>View and manage your bids.</Text>

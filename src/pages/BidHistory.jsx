@@ -1,7 +1,7 @@
 import { Box, Heading, VStack, Text } from "@chakra-ui/react";
 
 const BidHistory = () => (
-  <Box p={4}>
+  <Box p={4} bg="black" color="white">
     <VStack spacing={4} align="center">
       <Heading>Bid History</Heading>
       <Text>View your past bids.</Text>

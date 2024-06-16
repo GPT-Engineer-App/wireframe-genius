@@ -1,7 +1,7 @@
 import { Box, Heading, VStack, Text, FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
 
 const Support = () => (
-  <Box p={4}>
+  <Box p={4} bg="black" color="white">
     <VStack spacing={4} align="center">
       <Heading>Support</Heading>
       <Text>Contact us for any support or queries.</Text>
