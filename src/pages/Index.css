@@ -5,7 +5,7 @@
 
 .homepage-container::before {
   content: "";
-  background: url('/images/new-homepage-banner.jpg') no-repeat center center/cover;
+  background: url('/images/simpler-homepage-banner.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
